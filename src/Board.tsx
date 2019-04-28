@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import Square, {SquareType} from "./Square";
 
-import './Game.css';
-
 interface BoardProps {
   squares: SquareType[];
   onClick: (n: number) => void;

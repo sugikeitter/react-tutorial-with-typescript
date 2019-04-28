@@ -3,16 +3,16 @@ import React, {Component} from 'react';
 import Board from './Board'
 import {SquareType} from "./Square";
 
-import './Game.css';
-
 interface HistoryData {
   squares: SquareType[],
 }
+
 interface GameState {
   history: HistoryData[],
   stepNumber: number,
   xIsNext: boolean,
 }
+
 class Game extends Component<any, GameState> {
   state: GameState = {
     history: [

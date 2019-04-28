@@ -1,5 +1,4 @@
 import React from 'react';
-import './Game.css';
 
 export type SquareType = ('O' | 'X' | '')
 
