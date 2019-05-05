@@ -3,7 +3,7 @@ import React from 'react';
 export type SquareType = ('O' | 'X' | '')
 
 interface SquareProps {
-  value: any;
+  value: SquareType;
   onClick: () => void;
 }
 
